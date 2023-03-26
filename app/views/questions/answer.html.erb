@@ -1,12 +1,12 @@
 <div class="page">
   <h1>Stupid Coaching</h1>
-  <div class="response border-start border-light-subtle border-4">
+  <div class="dialogue-box border-start border-light-subtle border-4">
     <%= @question %>
     <div>- You</div>
   </div>
-  <div class="response border-start border-light-subtle border-4">
+  <div class="dialogue-box border-start border-light-subtle border-4">
     <%= @answer %>
     <div>- Your coach</div>
   </div>
-  <%= link_to "Ask a new question", ask_path, id: "link" %>
+  <%= link_to "Ask a new question", root_path, class: "link" %>
 </div>
