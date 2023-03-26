@@ -1,24 +1,4 @@
-# README
+### Rails Stupid Coaching
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This was an exercise I did at the Le Wagon bootcamp on my first rails class. It allow to learn about routes, controllers and views.
+The user can say anything to the coach, but the coach will not respond well unless the user specifically says "I am going to work", since that's all he cares about.
